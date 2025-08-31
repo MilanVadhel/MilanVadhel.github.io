@@ -82,7 +82,7 @@
             class="inline-block w-9 h-9 rounded-full overflow-hidden ring-2 ring-primary-500"
           >
             <img
-              src="https://unavatar.io/github/"
+              src="avatar.jpeg"
               alt="Avatar"
               class="w-full h-full object-cover"
             />
@@ -116,12 +116,12 @@
             Resume
           </a>
         </nav>
-        <button
+        <!-- <button
           id="theme-toggle"
           class="ml-3 rounded-xl border border-slate-300 dark:border-slate-700 px-3 py-1.5 text-sm hover:bg-slate-50 dark:hover:bg-slate-900"
         >
           <span id="theme-label">Dark</span>
-        </button>
+        </button> -->
       </div>
     </header>
 
@@ -134,10 +134,15 @@
             <span class="text-primary-600">Android</span> Engineer
           </h1>
           <p class="mt-4 text-lg text-slate-600 dark:text-slate-300 max-w-2xl">
-            I build fast, reliable mobile apps with TypeScript, Kotlin, clean
-            architecture, and pixel-perfect UI. 5 years of experience shipping
-            dating, food, education, social media, E-commerce, logistics, driver
-            and warehouse apps.
+            I’m Milan Vadhel, a Software Engineer with 5 years of experience in
+            React Native and Android development. I love building clean,
+            scalable, and user-friendly mobile apps using Java, Kotlin,
+            TypeScript, and React Native (CLI & Expo). I’ve worked on projects
+            like dating, educational, food ordering, driver, and warehouse apps,
+            adding features such as real-time chat, live tracking, and secure
+            payments. I’m also experienced with Redux, Zustand, SQLite, Room,
+            CI/CD (GitHub Actions, Fastlane), and testing tools like Jest and
+            Detox. Passionate about creating apps that make a real impact 🚀.
           </p>
           <div class="mt-6 flex flex-wrap gap-3">
             <a
@@ -169,7 +174,7 @@
         <div class="md:justify-self-end">
           <img
             class="w-48 h-48 rounded-3xl object-cover ring-4 ring-primary-100 dark:ring-primary-900/40"
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=640&auto=format&fit=crop"
+            src="avatar.jpeg"
             alt="Milan portrait placeholder"
           />
         </div>
@@ -210,7 +215,9 @@
     <section id="projects" class="max-w-6xl mx-auto px-4 py-12">
       <div class="flex items-end justify-between mb-6">
         <h2 class="text-2xl md:text-3xl font-bold">Highlighted Projects</h2>
-        <a href="https://github.com/" class="text-sm hover:text-primary-600"
+        <a
+          href="https://github.com/MilanVadhel?tab=repositories"
+          class="text-sm hover:text-primary-600"
           >View all repos →</a
         >
       </div>
@@ -229,27 +236,53 @@
         >
           <div class="flex items-center justify-between">
             <h3 class="font-semibold">Software Engineer — Mindinventory</h3>
-            <span class="text-sm text-slate-500">Aug 2021 — Present</span>
+            <span class="text-sm text-slate-500">Sep 2020 — Aug 2025</span>
           </div>
           <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
-            React Native (CLI & Expo) • Android (Kotlin/Java) • Clean
-            Architecture • Redux Toolkit, Saga • MMKV • Detox • EAS • Fastlane •
-            CI/CD • Firebase • Realm
+            React Native (CLI & Expo) • Android (Kotlin/Java) • MVVM & Clean
+            Architecture • Redux Toolkit, Thunk, Saga • Zustand • Context API •
+            MMKV • Redux Persist • Async Storage • Axios • Jest • React Native
+            Testing Library • Detox • EAS • Fastlane • CI/CD • Android Jetpack •
+            Retrofit • RxJava • Kotlin Coroutines • LiveData • Room DB
           </p>
           <ul
             class="mt-3 list-disc list-inside text-sm space-y-1 text-slate-600 dark:text-slate-300"
           >
             <li>
-              Led development of a dating app with real-time chat, push
-              notifications, and video features; improved session length by 35%.
+              Engineered cross-platform mobile apps using React Native (CLI +
+              Expo) with seamless iOS & Android performance.
             </li>
             <li>
-              Built logistics & warehouse app with offline-first sync (Realm +
-              MongoDB) and background tasks; reduced operational delays by 40%.
+              Leveraged Expo EAS for faster deployments & OTA updates, reducing
+              release cycles.
             </li>
             <li>
-              Implemented E2E testing with Detox and CI on GitHub Actions,
-              cutting regressions by 60%.
+              Implemented scalable state management with Redux Toolkit, Zustand
+              & Context API.
+            </li>
+            <li>
+              Optimized offline storage using MMKV, Redux Persist & Async
+              Storage, improving data retrieval speed by 20x.
+            </li>
+            <li>
+              Integrated Thunk & Saga middleware with Axios, enhancing API
+              efficiency and error handling.
+            </li>
+            <li>
+              Built CI/CD pipelines with GitHub Actions & Fastlane, achieving
+              25% faster deployments.
+            </li>
+            <li>
+              Applied TDD practices using Jest, React Native Testing Library &
+              Detox to ensure high-quality, bug-free releases.
+            </li>
+            <li>
+              Developed apps with MVVM & Clean Architecture, leveraging Android
+              Jetpack, Retrofit, RxJava, Kotlin Coroutines, LiveData & Room DB.
+            </li>
+            <li>
+              Reduced app crashes by 40% and improved overall user experience by
+              25%.
             </li>
           </ul>
         </article>
@@ -260,36 +293,56 @@
     <section id="skills" class="max-w-6xl mx-auto px-4 py-12">
       <h2 class="text-2xl md:text-3xl font-bold mb-6">Skills</h2>
       <div class="grid md:grid-cols-4 gap-4 text-sm">
-        <div
-          class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4"
-        >
-          <h3 class="font-semibold mb-2">Mobile</h3>
-          <p>
-            React Native (TS), Android (Kotlin/Java), Expo, Native Modules,
-            Jetpack, MVVM
-          </p>
-        </div>
-        <div
-          class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4"
-        >
-          <h3 class="font-semibold mb-2">State & Data</h3>
-          <p>
-            Redux Toolkit, Saga, Zustand, MMKV, AsyncStorage, Realm, SQLite/Room
-          </p>
-        </div>
-        <div
-          class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4"
-        >
-          <h3 class="font-semibold mb-2">Backend & APIs</h3>
-          <p>Node.js, Express, REST, Firebase, MongoDB, WebSockets</p>
-        </div>
-        <div
-          class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4"
-        >
-          <h3 class="font-semibold mb-2">DevOps & Quality</h3>
-          <p>EAS, Fastlane, GitHub Actions, Jest, RNTL, Detox, Play Console</p>
-        </div>
-      </div>
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+  <h3 class="font-semibold mb-2">Technologies</h3>
+  <p>Android, React Native</p>
+</div>
+
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+  <h3 class="font-semibold mb-2">Programming Languages</h3>
+  <p>Java, Kotlin, JavaScript, TypeScript, XML</p>
+</div>
+
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+  <h3 class="font-semibold mb-2">Development Tools</h3>
+  <p>Android Studio, Xcode, VS Code, Cursor, Postman</p>
+</div>
+
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+  <h3 class="font-semibold mb-2">Version Control</h3>
+  <p>GitHub, GitLab</p>
+</div>
+
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+  <h3 class="font-semibold mb-2">Databases</h3>
+  <p>SQLite, Room</p>
+</div>
+
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+  <h3 class="font-semibold mb-2">APIs & Integration</h3>
+  <p>REST, GraphQL</p>
+</div>
+
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+  <h3 class="font-semibold mb-2">Project Management</h3>
+  <p>Asana, Jira, GitLab, Trello, Monday</p>
+</div>
+<div
+  class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4"
+>
+  <h3 class="font-semibold mb-2">Node.js Basics</h3>
+  <p>
+    NPM, Express, REST APIs, Middleware, Authentication, MongoDB Basics
+  </p>
+</div>
+<div
+  class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4"
+>
+  <h3 class="font-semibold mb-2">Python Basics</h3>
+  <p>
+    Core Python, OOP, File Handling
+  </p>
+</div>
     </section>
 
     <!-- Contact -->
@@ -444,7 +497,8 @@
         title: "React Native & Android Engineer",
         email: "vadhermilan64526@gmai.com",
         location: "Ahmedabad, IN",
-        avatar: "https://unavatar.io/github/your-github-username",
+        avatar:
+          "avatar.jpeg",
         resumeUrl: "resume.pdf",
         social: {
           github: "https://github.com/MilanVadhel",
@@ -452,25 +506,74 @@
         },
         projects: [
           {
-            name: "Dating App (RN + Firebase)",
+            name: "Dating App (React Native)",
             description:
-              "Bidirectional circular feed, chat with WebSockets, push notifications, and media uploads.",
-            tags: ["React Native", "TypeScript", "Firebase", "WebSockets"],
+              "Dating Application – Built a high-performance mobile app with a smooth bidirectional feed and real-time chat.Integrated audio chat, selfie verification (AWS Rekognition), and AI-powered moderation (Hive AI) for secure interactions. Configured CI/CD with Expo EAS for seamless OTA updates and reliable delivery.",
+            tags: [
+              "React Native",
+              "TypeScript",
+              "AI Powered",
+              "Firebase",
+              "Expo",
+              "EAS",
+            ],
             demo: "",
           },
           {
-            name: "Warehouse App (Offline-First)",
+            name: "Educational App (React Native)",
             description:
-              "Realm DB local-first with background sync to MongoDB, barcode scanning, queue processing.",
-            tags: ["Realm", "MongoDB", "Android", "Clean Architecture"],
+              "Dating Application – Built a high-performance mobile app with a smooth bidirectional feed and real-time chat.Integrated audio chat, selfie verification (AWS Rekognition), and AI-powered moderation (Hive AI) for secure interactions. Configured CI/CD with Expo EAS for seamless OTA updates and reliable delivery.",
+            tags: [
+              "React Native",
+              "TypeScript",
+              "AI Powered",
+              "Firebase",
+              "CLI",
+              "Codepush",
+            ],
             demo: "",
           },
           {
-            name: "Food Ordering App",
+            name: "Tiffin Service App (Android)",
             description:
-              "Expo + RTK Query + Stripe test integration, optimized list rendering & skeletons.",
-            tags: ["Expo", "Redux Toolkit", "Stripe"],
-            repo: "https://github.com/your-github-username/food-ordering",
+              "Tiffin Service App – Designed a subscription-based meal delivery app with daily/weekly/monthly plans, tailored for students and professionals. Integrated Google Places SDK for precise location tracking, boosting delivery efficiency by 25%. Implemented a secure Razorpay payment module, improving success rates by 30%.",
+            tags: [
+              "Android",
+              "Clean Architecture",
+              "Kotlin",
+              "Coroutine",
+              "Razorpay",
+            ],
+            demo: "",
+          },
+          {
+            name: "Driver App (Android)",
+            description:
+              "Driver App – Built to optimize product deliveries with a 30-second order acceptance system and nearby order suggestions. Integrated Google Location SDK for real-time tracking and precise delivery updates. Enabled live voice communication via Sendbird SDK, improving driver–customer coordination.",
+            tags: [
+              "Android",
+              "MVVM Architecture",
+              "Kotlin",
+              "RxJava",
+              "GraphQL",
+            ],
+            repo: "",
+            demo: "",
+          },
+          {
+            name: "Attendance Tracker (Android)",
+            description:
+              "Track-Attendance – Built a lightweight attendance tracker using SQLite for efficient data management. Enabled features to add/update student records, track daily/monthly attendance, and check birthdays. Integrated Excel export functionality for easy reporting and data sharing.",
+            tags: ["Android", "Java", "SQLite", "XML"],
+            repo: "https://github.com/MilanVadhel/Track-Attendance",
+            demo: "",
+          },
+          {
+            name: "Todo App (Node.js)",
+            description:
+              "Todo App – Developed a secure task management app using Node.js, Express, and MongoDB with clean Mongoose models. Implemented JWT authentication with bcrypt password hashing for user security. Enabled full CRUD operations with protected API endpoints for seamless task management.",
+            tags: ["Node.js", "Express", "MongoDB", "JWT Auth", "Bcrypt"],
+            repo: "https://github.com/MilanVadhel/TodoApp",
             demo: "",
           },
         ],
